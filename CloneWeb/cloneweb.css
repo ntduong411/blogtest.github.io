@@ -1,0 +1,25 @@
+.text1 {
+    background-color: #EFE9E9;
+    padding: 20px;
+    list-style-type: none;
+}
+.text1 li{
+    display:inline-block;
+    font-size: 20px;
+
+}
+
+li#tcnk,#tcvn {
+  float: right;
+  margin-left: 20px;
+  padding-left: 10px;
+}
+
+li#tcvn{
+  border-left: solid
+  
+}
+
+.saurieng:after {
+content: "Sầu riêng Musang King Malaysia";
+}

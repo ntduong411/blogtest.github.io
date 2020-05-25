@@ -1,0 +1,28 @@
+body {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+}
+.content {
+    width: 1240px;
+    height: 1754px;
+    background-color: #ffffff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 300%;
+    color: #610E0E;
+}
+
+.subheading {
+    border-bottom: double;
+    border-color:  #610E0E;
+    font-size: 200%;
+    color: #4C0505;
+    width: 80%;
+    left: 20%;
+}
+table, th, td {
+    border: 2px solid black;
+  }
