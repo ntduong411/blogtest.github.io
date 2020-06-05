@@ -1,0 +1,90 @@
+*, *:after, *:before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: "Roboto";
+    background-color: #F2F2F2;
+    height: 100vh;
+   
+}
+.head_bar
+.card_list{
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+    margin: auto;
+}
+img{
+    display: block;
+    max-width: 100%;
+    margin: auto;
+}
+.card{
+    width: 304px;
+    background-color: #fff;
+    padding: 16px;
+    margin: 20px;
+}
+.card_icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+.card_icon span{
+    color: #BFC5D1;
+}
+.card_icon span:hover{
+    color: #FA5FD7
+}
+.card_thumbnail img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.card_info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.name{
+    font-size: 18px;
+    color: #1B2437;
+    margin: 16px 0;
+    font-weight: 500;
+}
+.email{
+    font-size: 14px;
+    color: #98A0A6;
+    font-weight: 500;
+}
+.card_btn{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+}
+.card_btn button{
+    flex-basis: 48%;
+    background-color: white;
+    border: none;
+    padding: 12px 0;
+    border-radius: 100px;
+}
+.card_btn button:hover{
+    background-color: #507BFC;
+    color: #fff;
+}
+.btn_icon{
+    color: #BFC5D1;
+}
+.btn_name{
+    color: #98A0A6;
+    font-size: 14px;
+}
+.card_btn button:hover .btn_icon,
+.card_btn button:hover .btn_name{
+    background-color: #507BFC;
+    color: #fff;
+}
